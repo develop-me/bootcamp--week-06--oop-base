@@ -29,6 +29,7 @@ class Challenges
         $cake = new Cooking\Recipe("Cake");
 
         // we can add ingredients plus amounts
+        // the amount belongs to the recipe, not the ingredient
         $cake->addIngredient($flour, "200g");
         $cake->addIngredient($butter, "100g");
         $cake->addIngredient($sugar, "50g");
